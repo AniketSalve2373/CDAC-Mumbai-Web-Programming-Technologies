@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+.contact-container{
+    width:1000px;
+    margin:50px auto;
+    display:flex;
+    background:white;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+.left-side{
+    width:35%;
+    color:white;
+    padding:40px 30px;
+    background:linear-gradient(140deg,#3d5afe 55%, #29b6f6 55%, #29b6f6 75%, #f8bbd0 75%);
+}
+
+.left-side h2{
+    margin-bottom:30px;
+}
+
+.info p{
+    margin:20px 0;
+    line-height:1.6;
+    font-size:15px;
+}
+
+.social{
+    margin-top:60px;
+}
+
+.social span{
+    display:inline-block;
+    margin-right:12px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.right-side{
+    width:65%;
+    padding:40px;
+}
+
+.right-side h2{
+    margin-bottom:25px;
+    color:#333;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:none;
+    border-bottom:2px solid #ccc;
+    outline:none;
+    font-size:15px;
+    box-sizing:border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border-bottom:2px solid #3d5afe;
+}
+
+textarea{
+    height:120px;
+    resize:none;
+}
+
+.radio-box{
+    margin-bottom:15px;
+}
+
+.radio-box label{
+    margin-right:20px;
+    font-size:15px;
+}
+
+.radio-box input{
+    width:auto;
+    margin-right:5px;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    background:#3d5afe;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+button:hover{
+    background:#2a43d6;
+}

@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+.form-box{
+    width:700px;
+    margin:auto;
+    padding:30px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+.white{
+    background:white;
+}
+
+.purple{
+    background:#5b4bc4;
+    color:white;
+}
+
+.blue{
+    background:#dce8f5;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+h2{
+    margin-top:20px;
+    font-size:20px;
+}
+
+label{
+    display:block;
+    margin-top:12px;
+    font-weight:bold;
+}
+
+input, textarea, select{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border:1px solid #999;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+
+textarea{
+    height:80px;
+}
+
+.radio-group{
+    margin-top:8px;
+}
+
+.radio-group input,
+.radio-group checkbox{
+    width:auto;
+}
+
+.dob{
+    display:flex;
+    gap:10px;
+}
+
+button{
+    padding:10px 18px;
+    border:none;
+    background:#222;
+    color:white;
+    cursor:pointer;
+    margin-right:10px;
+    border-radius:4px;
+}
+
+button:hover{
+    background:#444;
+}

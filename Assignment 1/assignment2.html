@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Assignment</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin:20px;
+    }
+
+    .box{
+        border:2px solid black;
+        padding:10px;
+        margin:10px 0;
+    }
+
+    .red{
+        color:red;
+    }
+
+    #special{
+        background:yellow;
+    }
+
+    header,nav,section,article,footer{
+        border:1px solid gray;
+        padding:10px;
+        margin:10px 0;
+    }
+
+    .responsive{
+        width:100%;
+        max-width:400px;
+        height:auto;
+    }
+
+    .container{
+        display:flex;
+        gap:10px;
+    }
+
+    .left,.right{
+        flex:1;
+        padding:20px;
+        background:lightblue;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>HTML Assignment Implementation</h1>
+
+<!-- 1. Block & Inline -->
+<h2>1. Block & Inline</h2>
+<div class="box">This is Block Element (div)</div>
+<span style="color:blue;">This is Inline Element (span)</span>
+
+<!-- 2. Div -->
+<h2>2. HTML Div</h2>
+<div class="box">This is a div container</div>
+
+<!-- 3. Classes -->
+<h2>3. HTML Classes</h2>
+<p class="red">This paragraph uses class red</p>
+
+<!-- 4. Id -->
+<h2>4. HTML Id</h2>
+<p id="special">This paragraph uses unique id</p>
+
+<!-- 5. Iframes -->
+<h2>5. HTML Iframes</h2>
+<iframe src="https://www.wikipedia.org" width="400" height="200"></iframe>
+
+<!-- 6. Filepaths -->
+<h2>6. HTML Filepaths</h2>
+<img src="image.jpg" alt="Sample Image Path" width="200">
+
+<!-- 7. Head -->
+<h2>7. HTML Head</h2>
+<p>Head contains meta, title, style etc.</p>
+
+<!-- 8. Layout -->
+<h2>8. HTML Layout</h2>
+<div class="container">
+    <div class="left">Left Side</div>
+    <div class="right">Right Side</div>
+</div>
+
+<!-- 9. Responsive -->
+<h2>9. HTML Responsive</h2>
+<img src="https://via.placeholder.com/400" class="responsive">
+
+<!-- 10. Semantics -->
+<h2>10. HTML Semantics</h2>
+<header>Header</header>
+<nav>Navigation</nav>
+<section>
+    <article>Article Content</article>
+</section>
+<footer>Footer</footer>
+
+<!-- 11. Forms -->
+<h2>11. HTML Forms</h2>
+<form action="#">
+    
+    <!-- 12. Form Attributes -->
+    <label>Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <!-- 13. Form Elements -->
+    <label>Message:</label>
+    <textarea></textarea><br><br>
+
+    <!-- 14. Input Types -->
+    <label>Email:</label>
+    <input type="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password"><br><br>
+
+    <label>Date:</label>
+    <input type="date"><br><br>
+
+    <!-- 15. Input Attributes -->
+    <label>Age:</label>
+    <input type="number" min="18" max="60"><br><br>
+
+    <!-- 16. Input Form Attributes -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
