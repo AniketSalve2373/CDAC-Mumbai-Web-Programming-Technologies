@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q3 Remove Dropdown Items</title>
+</head>
+<body>
+
+<h2>Question 3</h2>
+
+<select id="myList">
+    <option>HTML</option>
+    <option>CSS</option>
+    <option>JavaScript</option>
+    <option>Bootstrap</option>
+</select>
+
+<br><br>
+
+<button onclick="removeItem()">Remove Selected Item</button>
+
+<script>
+function removeItem()
+{
+    let list = document.getElementById("myList");
+    list.remove(list.selectedIndex);
+}
+</script>
+
+</body>
+</html>
