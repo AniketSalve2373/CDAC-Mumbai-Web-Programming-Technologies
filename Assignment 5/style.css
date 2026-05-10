@@ -1,0 +1,14 @@
+body{
+    background:#f4f4f4;
+}
+
+.card{
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    border:none;
+    margin-bottom:20px;
+}
+
+img{
+    height:150px;
+    object-fit:cover;
+}
